@@ -26,6 +26,15 @@ class TestBasicOperations:
         assert subtract(-1,-1)==0
         assert subtract(-5,-3)==-2
 
+class TestMultiplyDivide:
+    
+    def test_multiplication_positive_numbers(self):
+        assert multiply(4,5)==20;
+        assert multiply(5,5)==25;
+        
+    def test_multiply_by_zero(self):
+        assert multiply(5,0)==0;
+        assert multiply(0,10)==0;
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
     
