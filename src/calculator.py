@@ -32,6 +32,9 @@ def divide(a, b):
     result = a / b
     print(f"Result: {result}")
     return result
+def power(a,b):
+    return a**b
+
 
 # TODO: Students will add multiply, divide, power, sqrt functions
 
